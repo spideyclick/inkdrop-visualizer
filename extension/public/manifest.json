@@ -10,12 +10,14 @@
     "scripting"
   ],
   "host_permissions": [
-    "https://github.com/*"
+    "https://github.com/*",
+    "https://bitbucket.org/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://github.com/*"
+        "https://github.com/*",
+        "https://bitbucket.org/*"
       ],
       "js": [
         "js/diagramScript.js"
